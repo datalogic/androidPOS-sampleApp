@@ -1,0 +1,2467 @@
+{
+  "version": "1.0",
+  "aPosEntries": [
+    {
+      "logicalName": "DL-Gryphon-GD4500-USB-OEM",
+      "creation": {
+        "factoryClass": "com.datalogic.dlapos.androidpos.service.DLSScannerInstanceServiceFactory",
+        "serviceClass": "com.datalogic.dlapos.androidpos.service.DLSScannerService"
+      },
+      "vendor": {
+        "name": "DLA",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "apos": {
+        "category": "Scanner",
+        "version": "1.13"
+      },
+      "product": {
+        "description": "ScannerService",
+        "name": "ScannerService",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "properties": [
+        {
+          "name": "beepDuration",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "beepFrequency",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "beepVolume",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "canAcceptStatisticsCmd",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canCompareFirmwareVersion",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canNotifyPowerChange",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canUpdateFirmware",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "deviceBus",
+          "type": "String",
+          "value": "USB"
+        },
+        {
+          "name": "deviceClass",
+          "type": "String",
+          "value": "USBHHScanner"
+        },
+        {
+          "name": "deviceDescription",
+          "type": "String",
+          "value": "DLS Gryphon GD4500 Scanner"
+        },
+        {
+          "name": "deviceName",
+          "type": "String",
+          "value": "DLS Gryphon GD4500 Scanner"
+        },
+        {
+          "name": "doubleReadTimeout",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "enable2DigitSups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable4DigitPriceCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable5DigitPriceCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable5DigitSups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableBarCodeProgramming",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCodabar",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode128",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode128Sups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableCode39",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode39CheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableCode93",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableEANJAN2LabelDecode",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableGoodReadBeep",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableInterleaved",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableITFCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableLaserOnOffSwitch",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUCCEAN128",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCACheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCAtoEAN13Expansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCD1D5",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCEAN",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCECheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCEtoEAN13Expansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCEtoUPCAExpansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableVolumeSwitch",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "fullDisable",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "itfLength1",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "itfLength2",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "itfRange",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "laserTimeout",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "ledGoodReadDuration",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "MBeansEnabled",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "motorTimeout",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "productId",
+          "type": "String",
+          "value": "122F"
+        },
+        {
+          "name": "scanControl",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "storeLabelSecurityLevel",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "twoItfs",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "usage",
+          "type": "String",
+          "value": "4b00"
+        },
+        {
+          "name": "vendorId",
+          "type": "String",
+          "value": "05f9"
+        },
+        {
+          "name": "WMIEnabled",
+          "type": "String",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "logicalName": "DL-QuickScan-QD2500-USB-OEM",
+      "creation": {
+        "factoryClass": "com.datalogic.dlapos.androidpos.service.DLSScannerInstanceServiceFactory",
+        "serviceClass": "com.datalogic.dlapos.androidpos.service.DLSScannerService"
+      },
+      "vendor": {
+        "name": "DLA",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "apos": {
+        "category": "Scanner",
+        "version": "1.13"
+      },
+      "product": {
+        "description": "ScannerService",
+        "name": "ScannerService",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "properties": [
+        {
+          "name": "beepDuration",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "beepFrequency",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "beepVolume",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "canAcceptStatisticsCmd",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canCompareFirmwareVersion",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canNotifyPowerChange",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canUpdateFirmware",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "deviceBus",
+          "type": "String",
+          "value": "USB"
+        },
+        {
+          "name": "deviceClass",
+          "type": "String",
+          "value": "USBHHScanner"
+        },
+        {
+          "name": "deviceDescription",
+          "type": "String",
+          "value": "DLS Gryphon GD4500 Scanner"
+        },
+        {
+          "name": "deviceName",
+          "type": "String",
+          "value": "DLS Gryphon GD4500 Scanner"
+        },
+        {
+          "name": "doubleReadTimeout",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "enable2DigitSups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable4DigitPriceCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable5DigitPriceCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable5DigitSups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableBarCodeProgramming",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCodabar",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode128",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode128Sups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableCode39",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode39CheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableCode93",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableEANJAN2LabelDecode",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableGoodReadBeep",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableInterleaved",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableITFCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableLaserOnOffSwitch",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUCCEAN128",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCACheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCAtoEAN13Expansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCD1D5",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCEAN",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCECheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCEtoEAN13Expansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCEtoUPCAExpansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableVolumeSwitch",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "fullDisable",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "itfLength1",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "itfLength2",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "itfRange",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "laserTimeout",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "ledGoodReadDuration",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "MBeansEnabled",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "motorTimeout",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "productId",
+          "type": "String",
+          "value": "1239"
+        },
+        {
+          "name": "scanControl",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "storeLabelSecurityLevel",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "twoItfs",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "usage",
+          "type": "String",
+          "value": "4b00"
+        },
+        {
+          "name": "vendorId",
+          "type": "String",
+          "value": "05f9"
+        },
+        {
+          "name": "WMIEnabled",
+          "type": "String",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "logicalName": "DL-PowerScan-PD9630-USB-OEM",
+      "creation": {
+        "factoryClass": "com.datalogic.dlapos.androidpos.service.DLSScannerInstanceServiceFactory",
+        "serviceClass": "com.datalogic.dlapos.androidpos.service.DLSScannerService"
+      },
+      "vendor": {
+        "name": "DLA",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "apos": {
+        "category": "Scanner",
+        "version": "1.13"
+      },
+      "product": {
+        "description": "ScannerService",
+        "name": "ScannerService",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "properties": [
+        {
+          "name": "beepDuration",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "beepFrequency",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "beepVolume",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "canAcceptStatisticsCmd",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canCompareFirmwareVersion",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canNotifyPowerChange",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canUpdateFirmware",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "deviceBus",
+          "type": "String",
+          "value": "USB"
+        },
+        {
+          "name": "deviceClass",
+          "type": "String",
+          "value": "USBHHScanner"
+        },
+        {
+          "name": "deviceDescription",
+          "type": "String",
+          "value": "DLS PowerScan PD9630 Scanner"
+        },
+        {
+          "name": "deviceName",
+          "type": "String",
+          "value": "DLS PowerScan PD9630 Scanner"
+        },
+        {
+          "name": "doubleReadTimeout",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "enable2DigitSups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable4DigitPriceCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable5DigitPriceCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable5DigitSups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableBarCodeProgramming",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCodabar",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode128",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode128Sups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableCode39",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode39CheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableCode93",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableEANJAN2LabelDecode",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableGoodReadBeep",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableInterleaved",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableITFCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableLaserOnOffSwitch",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUCCEAN128",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCACheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCAtoEAN13Expansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCD1D5",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCEAN",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCECheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCEtoEAN13Expansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCEtoUPCAExpansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableVolumeSwitch",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "fullDisable",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "itfLength1",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "itfLength2",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "itfRange",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "laserTimeout",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "ledGoodReadDuration",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "MBeansEnabled",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "motorTimeout",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "productId",
+          "type": "String",
+          "value": "1233"
+        },
+        {
+          "name": "scanControl",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "storeLabelSecurityLevel",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "twoItfs",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "usage",
+          "type": "String",
+          "value": "4b00"
+        },
+        {
+          "name": "vendorId",
+          "type": "String",
+          "value": "05f9"
+        },
+        {
+          "name": "WMIEnabled",
+          "type": "String",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "logicalName": "DL-PowerScan-PD9530-USB-OEM",
+      "creation": {
+        "factoryClass": "com.datalogic.dlapos.androidpos.service.DLSScannerInstanceServiceFactory",
+        "serviceClass": "com.datalogic.dlapos.androidpos.service.DLSScannerService"
+      },
+      "vendor": {
+        "name": "DLA",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "apos": {
+        "category": "Scanner",
+        "version": "1.13"
+      },
+      "product": {
+        "description": "ScannerService",
+        "name": "ScannerService",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "properties": [
+        {
+          "name": "beepDuration",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "beepFrequency",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "beepVolume",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "canAcceptStatisticsCmd",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canCompareFirmwareVersion",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canNotifyPowerChange",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canUpdateFirmware",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "deviceBus",
+          "type": "String",
+          "value": "USB"
+        },
+        {
+          "name": "deviceClass",
+          "type": "String",
+          "value": "USBHHScanner"
+        },
+        {
+          "name": "deviceDescription",
+          "type": "String",
+          "value": "DLS PowerScan PD9530 Scanner"
+        },
+        {
+          "name": "deviceName",
+          "type": "String",
+          "value": "DLS PowerScan PD9530 Scanner"
+        },
+        {
+          "name": "doubleReadTimeout",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "enable2DigitSups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable4DigitPriceCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable5DigitPriceCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable5DigitSups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableBarCodeProgramming",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCodabar",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode128",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode128Sups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableCode39",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode39CheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableCode93",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableEANJAN2LabelDecode",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableGoodReadBeep",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableInterleaved",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableITFCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableLaserOnOffSwitch",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUCCEAN128",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCACheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCAtoEAN13Expansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCD1D5",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCEAN",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCECheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCEtoEAN13Expansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCEtoUPCAExpansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableVolumeSwitch",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "fullDisable",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "itfLength1",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "itfLength2",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "itfRange",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "laserTimeout",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "ledGoodReadDuration",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "MBeansEnabled",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "motorTimeout",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "productId",
+          "type": "String",
+          "value": "120D"
+        },
+        {
+          "name": "scanControl",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "storeLabelSecurityLevel",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "twoItfs",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "usage",
+          "type": "String",
+          "value": "4b00"
+        },
+        {
+          "name": "vendorId",
+          "type": "String",
+          "value": "05f9"
+        },
+        {
+          "name": "WMIEnabled",
+          "type": "String",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "logicalName": "DLS-Gryphon-GD4430-USB-OEM",
+      "creation": {
+        "factoryClass": "com.datalogic.dlapos.androidpos.service.DLSScannerInstanceServiceFactory",
+        "serviceClass": "com.datalogic.dlapos.androidpos.service.DLSScannerService"
+      },
+      "vendor": {
+        "name": "DLA",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "jpos": {
+        "category": "Scanner",
+        "version": "1.13"
+      },
+      "product": {
+        "description": "ScannerService",
+        "name": "ScannerService",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "properties": [
+        {
+          "name": "beepDuration",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "beepFrequency",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "beepVolume",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "canAcceptStatisticsCmd",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canCompareFirmwareVersion",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canNotifyPowerChange",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canUpdateFirmware",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "deviceBus",
+          "type": "String",
+          "value": "USB"
+        },
+        {
+          "name": "deviceClass",
+          "type": "String",
+          "value": "USBHHScanner"
+        },
+        {
+          "name": "deviceDescription",
+          "type": "String",
+          "value": "DLS Gryphon GD4500 Scanner"
+        },
+        {
+          "name": "deviceName",
+          "type": "String",
+          "value": "DLS Gryphon GD4500 Scanner"
+        },
+        {
+          "name": "doubleReadTimeout",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "enable2DigitSups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable4DigitPriceCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable5DigitPriceCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable5DigitSups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableBarCodeProgramming",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCodabar",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode128",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode128Sups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableCode39",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode39CheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableCode93",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableEANJAN2LabelDecode",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableGoodReadBeep",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableInterleaved",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableITFCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableLaserOnOffSwitch",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUCCEAN128",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCACheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCAtoEAN13Expansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCD1D5",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCEAN",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCECheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCEtoEAN13Expansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCEtoUPCAExpansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableVolumeSwitch",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "fullDisable",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "itfLength1",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "itfLength2",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "itfRange",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "laserTimeout",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "ledGoodReadDuration",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "MBeansEnabled",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "motorTimeout",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "productId",
+          "type": "String",
+          "value": "120C"
+        },
+        {
+          "name": "scanControl",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "storeLabelSecurityLevel",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "twoItfs",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "usage",
+          "type": "String",
+          "value": "4b00"
+        },
+        {
+          "name": "vendorId",
+          "type": "String",
+          "value": "05f9"
+        },
+        {
+          "name": "WMIEnabled",
+          "type": "String",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "logicalName": "DL-Gryphon-GD4500-USB-COM",
+      "creation": {
+        "factoryClass": "com.datalogic.dlapos.androidpos.service.DLSScannerInstanceServiceFactory",
+        "serviceClass": "com.datalogic.dlapos.androidpos.service.DLSScannerService"
+      },
+      "vendor": {
+        "name": "DLA",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "apos": {
+        "category": "Scanner",
+        "version": "1.13"
+      },
+      "product": {
+        "description": "ScannerService",
+        "name": "ScannerService",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "properties": [
+        {
+          "name": "beepDuration",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "beepFrequency",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "beepVolume",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "canAcceptStatisticsCmd",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canCompareFirmwareVersion",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canNotifyPowerChange",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canUpdateFirmware",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "decodeType",
+          "type": "String",
+          "value": "standard"
+        },
+        {
+          "name": "deviceBus",
+          "type": "String",
+          "value": "RS232"
+        },
+        {
+          "name": "deviceClass",
+          "type": "String",
+          "value": "USBHHScanner"
+        },
+        {
+          "name": "deviceDescription",
+          "type": "String",
+          "value": "DLS Gryphon GD4500 Scanner"
+        },
+        {
+          "name": "deviceName",
+          "type": "String",
+          "value": "DLS Gryphon GD4500 Scanner"
+        },
+        {
+          "name": "doubleReadTimeout",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "enable2DigitSups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable4DigitPriceCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable5DigitPriceCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable5DigitSups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableBarCodeProgramming",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCodabar",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode128",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode128Sups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableCode39",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode39CheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableCode93",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableEANJAN2LabelDecode",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableGoodReadBeep",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableInterleaved",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableITFCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableLaserOnOffSwitch",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUCCEAN128",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCACheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCAtoEAN13Expansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCD1D5",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCEAN",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCECheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCEtoEAN13Expansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCEtoUPCAExpansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableVolumeSwitch",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "fullDisable",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "itfLength1",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "itfLength2",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "itfRange",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "laserTimeout",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "ledGoodReadDuration",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "MBeansEnabled",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "motorTimeout",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "productId",
+          "type": "String",
+          "value": "4204"
+        },
+        {
+          "name": "scanControl",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "storeLabelSecurityLevel",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "twoItfs",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "usage",
+          "type": "String",
+          "value": "4b00"
+        },
+        {
+          "name": "vendorId",
+          "type": "String",
+          "value": "05f9"
+        },
+        {
+          "name": "WMIEnabled",
+          "type": "String",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "logicalName": "DL-PowerScan-PD9630-USB-COM",
+      "creation": {
+        "factoryClass": "com.datalogic.dlapos.androidpos.service.DLSScannerInstanceServiceFactory",
+        "serviceClass": "com.datalogic.dlapos.androidpos.service.DLSScannerService"
+      },
+      "vendor": {
+        "name": "DLA",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "apos": {
+        "category": "Scanner",
+        "version": "1.13"
+      },
+      "product": {
+        "description": "ScannerService",
+        "name": "ScannerService",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "properties": [
+        {
+          "name": "9xxx",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "baudRate",
+          "type": "String",
+          "value": "9600"
+        },
+        {
+          "name": "canAcceptStatisticsCmd",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canCompareFirmwareVersion",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canNotifyPowerChange",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canUpdateFirmware",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "dataBits",
+          "type": "String",
+          "value": "8"
+        },
+        {
+          "name": "decodeType",
+          "type": "String",
+          "value": "standard"
+        },
+        {
+          "name": "deviceBus",
+          "type": "String",
+          "value": "RS232"
+        },
+        {
+          "name": "deviceDescription",
+          "type": "String",
+          "value": "DLS Powerscan PD9630 Scanner"
+        },
+        {
+          "name": "deviceName",
+          "type": "String",
+          "value": "DLS Powerscan PD9630 Scanner"
+        },
+        {
+          "name": "flowControl",
+          "type": "String",
+          "value": "None"
+        },
+        {
+          "name": "MBeansEnabled",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "parity",
+          "type": "String",
+          "value": "None"
+        },
+        {
+          "name": "portName",
+          "type": "String",
+          "value": "3"
+        },
+        {
+          "name": "productId",
+          "type": "String",
+          "value": "4204"
+        },
+        {
+          "name": "stopBits",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "usage",
+          "type": "String",
+          "value": "4a00"
+        },
+        {
+          "name": "useVirtualPort",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "vendorId",
+          "type": "String",
+          "value": "05f9"
+        },
+        {
+          "name": "WMIEnabled",
+          "type": "String",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "logicalName": "DL-PowerScan-PD9530-USB-COM",
+      "creation": {
+        "factoryClass": "com.datalogic.dlapos.androidpos.service.DLSScannerInstanceServiceFactory",
+        "serviceClass": "com.datalogic.dlapos.androidpos.service.DLSScannerService"
+      },
+      "vendor": {
+        "name": "DLA",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "apos": {
+        "category": "Scanner",
+        "version": "1.13"
+      },
+      "product": {
+        "description": "ScannerService",
+        "name": "ScannerService",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "properties": [
+        {
+          "name": "9xxx",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "baudRate",
+          "type": "String",
+          "value": "9600"
+        },
+        {
+          "name": "canAcceptStatisticsCmd",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canCompareFirmwareVersion",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canNotifyPowerChange",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canUpdateFirmware",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "dataBits",
+          "type": "String",
+          "value": "8"
+        },
+        {
+          "name": "decodeType",
+          "type": "String",
+          "value": "warhol"
+        },
+        {
+          "name": "deviceBus",
+          "type": "String",
+          "value": "RS232"
+        },
+        {
+          "name": "deviceDescription",
+          "type": "String",
+          "value": "DLS Powerscan PD9530 Scanner"
+        },
+        {
+          "name": "deviceName",
+          "type": "String",
+          "value": "DLS Powerscan PD9530 Scanner"
+        },
+        {
+          "name": "flowControl",
+          "type": "String",
+          "value": "None"
+        },
+        {
+          "name": "MBeansEnabled",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "parity",
+          "type": "String",
+          "value": "None"
+        },
+        {
+          "name": "portName",
+          "type": "String",
+          "value": "3"
+        },
+        {
+          "name": "productId",
+          "type": "String",
+          "value": "4204"
+        },
+        {
+          "name": "stopBits",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "usage",
+          "type": "String",
+          "value": "4a00"
+        },
+        {
+          "name": "useVirtualPort",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "vendorId",
+          "type": "String",
+          "value": "05f9"
+        },
+        {
+          "name": "WMIEnabled",
+          "type": "String",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "logicalName": "DL-Magellan-9800i-USB-OEM-Scale",
+      "creation": {
+        "factoryClass": "com.datalogic.dlapos.androidpos.service.DLSScaleInstanceServiceFactory",
+        "serviceClass": "com.datalogic.dlapos.androidpos.service.DLSScaleService"
+      },
+      "vendor": {
+        "name": "DLA",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "apos": {
+        "category": "Scale",
+        "version": "1.13"
+      },
+      "product": {
+        "description": "ScaleService",
+        "name": "ScaleService",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "properties": [
+        {
+          "name": "canCompareFirmwareVersion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "canNotifyPowerChange",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canStatusUpdate",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canUpdateFirmware",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "deviceBus",
+          "type": "String",
+          "value": "USB"
+        },
+        {
+          "name": "deviceClass",
+          "type": "String",
+          "value": "USBScale"
+        },
+        {
+          "name": "deviceDescription",
+          "type": "String",
+          "value": "DLS Magellan 9800i USB OEM Scale"
+        },
+        {
+          "name": "deviceName",
+          "type": "String",
+          "value": "DLS Magellan 9800i Scale"
+        },
+        {
+          "name": "displayRequired",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enforceZeroReturn",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "fiveDigitWeight",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "fullDisable",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "indicateZeroWithLED",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "liveWeightPollRate",
+          "type": "String",
+          "value": "500"
+        },
+        {
+          "name": "metricWeightMode",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "operationMode",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "productId",
+          "type": "String",
+          "value": "1511"
+        },
+        {
+          "name": "scanControl",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "singleCable",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "usage",
+          "type": "String",
+          "value": "6e00"
+        },
+        {
+          "name": "vendorId",
+          "type": "String",
+          "value": "05f9"
+        },
+        {
+          "name": "vibrationSensitivity",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "zeroValid",
+          "type": "String",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "logicalName": "DL-Magellan-9800i-USB-OEM-Scanner-Scale",
+      "creation": {
+        "factoryClass": "com.datalogic.dlapos.androidpos.service.DLSScannerInstanceServiceFactory",
+        "serviceClass": "com.datalogic.dlapos.androidpos.service.DLSScannerService"
+      },
+      "vendor": {
+        "name": "DLA",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "apos": {
+        "category": "Scanner",
+        "version": "1.13"
+      },
+      "product": {
+        "description": "ScannerService",
+        "name": "ScannerService",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "properties": [
+        {
+          "name": "beepDuration",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "beepFrequency",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "beepVolume",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "canAcceptStatisticsCmd",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canCompareFirmwareVersion",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canNotifyPowerChange",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canUpdateFirmware",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "configOnClaim",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "configWithDIO",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "decodeData",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "decodeType",
+          "type": "String",
+          "value": "standard"
+        },
+        {
+          "name": "deviceBus",
+          "type": "String",
+          "value": "USB"
+        },
+        {
+          "name": "deviceClass",
+          "type": "String",
+          "value": "USBScanner"
+        },
+        {
+          "name": "deviceDescription",
+          "type": "String",
+          "value": "DLS Magellan 9800i USB OEM Scanner Scale"
+        },
+        {
+          "name": "deviceName",
+          "type": "String",
+          "value": "DLS Magellan 9800i"
+        },
+        {
+          "name": "disableOnExit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "doubleReadTimeout",
+          "type": "String",
+          "value": "2"
+        },
+        {
+          "name": "enable2DigitSups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable4DigitPriceCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable5DigitPriceCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enable5DigitSups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableBarCodeProgramming",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCodabar",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode128",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode128Sups",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableCode39",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableCode39CheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableCode93",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableEANJAN2LabelDecode",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableGoodReadBeep",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableInterleaved",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableITFCheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableLaserOnOffSwitch",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUCCEAN128",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCACheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCAtoEAN13Expansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCD1D5",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCEAN",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "enableUPCECheckDigit",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCEtoEAN13Expansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableUPCEtoUPCAExpansion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "enableVolumeSwitch",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "fullDisable",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "itfLength1",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "itfLength2",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "itfRange",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "laserTimeout",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "ledGoodReadDuration",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "MBeansEnabled",
+          "type": "False",
+          "value": "True"
+        },
+        {
+          "name": "motorTimeout",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "productId",
+          "type": "String",
+          "value": "1511"
+        },
+        {
+          "name": "rxPrefix",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "rxTrailer",
+          "type": "String",
+          "value": "d"
+        },
+        {
+          "name": "scanControl",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "storeLabelSecurityLevel",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "twoItfs",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "usage",
+          "type": "String",
+          "value": "4a00"
+        },
+        {
+          "name": "vendorId",
+          "type": "String",
+          "value": "05f9"
+        },
+        {
+          "name": "WMIEnabled",
+          "type": "String",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "logicalName": "DLS-USB-Flash",
+      "creation": {
+        "factoryClass": "com.datalogic.dlapos.androidpos.service.DLSScannerInstanceServiceFactory",
+        "serviceClass": "com.datalogic.dlapos.androidpos.service.DLSScannerService"
+      },
+      "vendor": {
+        "name": "Datalogic ADC Inc.",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "apos": {
+        "category": "PortalScanner",
+        "version": "1.13"
+      },
+      "product": {
+        "description": "ScannerService",
+        "name": "ScannerService",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "properties": [
+        {
+          "name": "canAcceptStatisticsCmd",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canCompareFirmwareVersion",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canUpdateFirmware",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "deviceBus",
+          "type": "String",
+          "value": "USB"
+        },
+        {
+          "name": "productId",
+          "type": "String",
+          "value": "120A"
+        },
+        {
+          "name": "usage",
+          "type": "String",
+          "value": "A000"
+        },
+        {
+          "name": "vendorId",
+          "type": "String",
+          "value": "05f9"
+        }
+      ]
+    }
+  ]
+}

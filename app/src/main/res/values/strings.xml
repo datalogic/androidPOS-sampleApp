@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">AndroidPOS</string>
+    <string name="product_name">Product name:</string>
+    <string name="additional_data">Additional data:</string>
+    <string name="status">Status:</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="claim">Claim</string>
+    <string name="release">Release</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="na">N/A</string>
+    <string name="barcode_content">Barcode content:</string>
+    <string name="barcode_symbology">Barcode Symbology</string>
+    <string name="scanner_panel_title">Scanner data</string>
+    <string name="file_version">File version:</string>
+    <string name="current_version">Current version:</string>
+    <string name="compare">Compare</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="firmware">Firmware</string>
+    <string name="comparison">Comparison:</string>
+    <string name="scale_data">Scale data</string>
+    <string name="read_weight">Read weight</string>
+    <string name="weight">Weight:</string>
+    <string name="async_mode">Async mode</string>
+    <string-array name="statistics_file_types">
+        <item>Xml</item>
+        <item>Avalanche</item>
+    </string-array>
+</resources>
